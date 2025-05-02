@@ -62,11 +62,26 @@ Leave it blank ("") if you don’t need or want it.
 
 ❓ Example Mod List
 
+```powershell
 $ModUrls = @(
     @{ type = "release"; url = "https://github.com/drizzlx/erenshor-leveldisplay/releases" },
-    @{ type = "raw";     url = "https://raw.githubusercontent.com/Brumdail/ErenshorQoL/main/ErenshorQoL/ErenshorQoL.dll" },
-    @{ type = "direct";  url = "https://github.com/sinai-dev/UnityExplorer/releases/download/4.9.0/UnityExplorer.BepInEx5.Mono.zip" }
+    @{ type = "release"; url = "https://github.com/iExpulsion/Expulsion.Erenshor.SpellSkillCleanupFix/releases" },
+    @{ type = "release"; url = "https://github.com/iExpulsion/Expulsion.Erenshor.Wellstone/releases" },
+    @{ type = "release"; url = "https://github.com/drizzlx/erenshor-minimap/releases" },
+    @{ type = "release"; url = "https://github.com/drizzlx/Erenshor-QuestHelper/releases" },
+    @{ type = "release"; url = "https://github.com/iExpulsion/Expulsion.Erenshor.ZoneInfo/releases" },
+    @{ type = "release"; url = "https://github.com/BepInEx/BepInEx.ConfigurationManager/releases" },
+    @{ type = "release"; url = "https://github.com/Brad522/Erenshor-CompareEquipment/releases" },
+    @{ type = "release"; url = "https://github.com/Brad522/Erenshor-EverquestLevelup/releases" },
+    
+    # Optional raw plugin example
+    @{ type = "raw"; url = "https://raw.githubusercontent.com/Brumdail/ErenshorQoL/main/ErenshorQoL/ErenshorQoL.dll" },
+    @{ type = "raw"; url = "https://github.com/Brumdail/ErenshorREL/blob/main/ErenshorREL/ErenshorREL.dll" },
+
+    # Optional direct plugin example
+    @{ type = "direct"; url = "https://github.com/sinai-dev/UnityExplorer/releases/download/4.9.0/UnityExplorer.BepInEx5.Mono.zip" }
 )
+```
 
 🧼 Cleanup
 
