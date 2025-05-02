@@ -1,6 +1,6 @@
 # Erenshor Mod Auto-Updater
 
-This PowerShell script automatically downloads and updates mods for the [Erenshor](https://store.steampowered.com/app/2710660/Erenshor/) game using GitHub Releases, direct URLs, or raw file links.
+This PowerShell script automatically downloads and updates mods for the [Erenshor](https://store.steampowered.com/app/2382520/Erenshor/) game using GitHub Releases, direct URLs, or raw file links.
 
 No dependencies. No bloat. Just run it, and your BepInEx plugins stay updated.
 
